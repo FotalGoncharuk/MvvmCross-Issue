@@ -4,12 +4,26 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 15.0.27703.2000
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AproReportsClient.Android", "AproReportsClient\AproReportsClient.Android\AproReportsClient.Android.csproj", "{BAC3574E-DAD6-4677-BE70-5F5AA915A8F4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{782AC2AC-7D71-4B7C-B61F-63D72B33AABD} = {782AC2AC-7D71-4B7C-B61F-63D72B33AABD}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AproReportsClient.iOS", "AproReportsClient\AproReportsClient.iOS\AproReportsClient.iOS.csproj", "{D7820B93-2B52-4434-9D3B-BC56BC657B10}"
+	ProjectSection(ProjectDependencies) = postProject
+		{782AC2AC-7D71-4B7C-B61F-63D72B33AABD} = {782AC2AC-7D71-4B7C-B61F-63D72B33AABD}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AproReportsClient.UWP", "AproReportsClient\AproReportsClient.UWP\AproReportsClient.UWP.csproj", "{9E813C98-BC22-4F39-84D3-C59A644107DD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{782AC2AC-7D71-4B7C-B61F-63D72B33AABD} = {782AC2AC-7D71-4B7C-B61F-63D72B33AABD}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AproReportsClient", "AproReportsClient\AproReportsClient\AproReportsClient.csproj", "{59933C25-B182-434B-8C7F-29F624551CF0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{782AC2AC-7D71-4B7C-B61F-63D72B33AABD} = {782AC2AC-7D71-4B7C-B61F-63D72B33AABD}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AproReportsClient.Core", "AproReportsClient.Core\AproReportsClient.Core.csproj", "{782AC2AC-7D71-4B7C-B61F-63D72B33AABD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -327,6 +341,54 @@ Global
 		{59933C25-B182-434B-8C7F-29F624551CF0}.Release|x86.ActiveCfg = Release|Any CPU
 		{59933C25-B182-434B-8C7F-29F624551CF0}.Release|x86.Build.0 = Release|Any CPU
 		{59933C25-B182-434B-8C7F-29F624551CF0}.Release|x86.Deploy.0 = Release|Any CPU
+		{782AC2AC-7D71-4B7C-B61F-63D72B33AABD}.Ad-Hoc|Any CPU.ActiveCfg = Debug|Any CPU
+		{782AC2AC-7D71-4B7C-B61F-63D72B33AABD}.Ad-Hoc|Any CPU.Build.0 = Debug|Any CPU
+		{782AC2AC-7D71-4B7C-B61F-63D72B33AABD}.Ad-Hoc|ARM.ActiveCfg = Debug|Any CPU
+		{782AC2AC-7D71-4B7C-B61F-63D72B33AABD}.Ad-Hoc|ARM.Build.0 = Debug|Any CPU
+		{782AC2AC-7D71-4B7C-B61F-63D72B33AABD}.Ad-Hoc|iPhone.ActiveCfg = Debug|Any CPU
+		{782AC2AC-7D71-4B7C-B61F-63D72B33AABD}.Ad-Hoc|iPhone.Build.0 = Debug|Any CPU
+		{782AC2AC-7D71-4B7C-B61F-63D72B33AABD}.Ad-Hoc|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{782AC2AC-7D71-4B7C-B61F-63D72B33AABD}.Ad-Hoc|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{782AC2AC-7D71-4B7C-B61F-63D72B33AABD}.Ad-Hoc|x64.ActiveCfg = Debug|Any CPU
+		{782AC2AC-7D71-4B7C-B61F-63D72B33AABD}.Ad-Hoc|x64.Build.0 = Debug|Any CPU
+		{782AC2AC-7D71-4B7C-B61F-63D72B33AABD}.Ad-Hoc|x86.ActiveCfg = Debug|Any CPU
+		{782AC2AC-7D71-4B7C-B61F-63D72B33AABD}.Ad-Hoc|x86.Build.0 = Debug|Any CPU
+		{782AC2AC-7D71-4B7C-B61F-63D72B33AABD}.AppStore|Any CPU.ActiveCfg = Debug|Any CPU
+		{782AC2AC-7D71-4B7C-B61F-63D72B33AABD}.AppStore|Any CPU.Build.0 = Debug|Any CPU
+		{782AC2AC-7D71-4B7C-B61F-63D72B33AABD}.AppStore|ARM.ActiveCfg = Debug|Any CPU
+		{782AC2AC-7D71-4B7C-B61F-63D72B33AABD}.AppStore|ARM.Build.0 = Debug|Any CPU
+		{782AC2AC-7D71-4B7C-B61F-63D72B33AABD}.AppStore|iPhone.ActiveCfg = Debug|Any CPU
+		{782AC2AC-7D71-4B7C-B61F-63D72B33AABD}.AppStore|iPhone.Build.0 = Debug|Any CPU
+		{782AC2AC-7D71-4B7C-B61F-63D72B33AABD}.AppStore|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{782AC2AC-7D71-4B7C-B61F-63D72B33AABD}.AppStore|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{782AC2AC-7D71-4B7C-B61F-63D72B33AABD}.AppStore|x64.ActiveCfg = Debug|Any CPU
+		{782AC2AC-7D71-4B7C-B61F-63D72B33AABD}.AppStore|x64.Build.0 = Debug|Any CPU
+		{782AC2AC-7D71-4B7C-B61F-63D72B33AABD}.AppStore|x86.ActiveCfg = Debug|Any CPU
+		{782AC2AC-7D71-4B7C-B61F-63D72B33AABD}.AppStore|x86.Build.0 = Debug|Any CPU
+		{782AC2AC-7D71-4B7C-B61F-63D72B33AABD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{782AC2AC-7D71-4B7C-B61F-63D72B33AABD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{782AC2AC-7D71-4B7C-B61F-63D72B33AABD}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{782AC2AC-7D71-4B7C-B61F-63D72B33AABD}.Debug|ARM.Build.0 = Debug|Any CPU
+		{782AC2AC-7D71-4B7C-B61F-63D72B33AABD}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{782AC2AC-7D71-4B7C-B61F-63D72B33AABD}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{782AC2AC-7D71-4B7C-B61F-63D72B33AABD}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{782AC2AC-7D71-4B7C-B61F-63D72B33AABD}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{782AC2AC-7D71-4B7C-B61F-63D72B33AABD}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{782AC2AC-7D71-4B7C-B61F-63D72B33AABD}.Debug|x64.Build.0 = Debug|Any CPU
+		{782AC2AC-7D71-4B7C-B61F-63D72B33AABD}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{782AC2AC-7D71-4B7C-B61F-63D72B33AABD}.Debug|x86.Build.0 = Debug|Any CPU
+		{782AC2AC-7D71-4B7C-B61F-63D72B33AABD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{782AC2AC-7D71-4B7C-B61F-63D72B33AABD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{782AC2AC-7D71-4B7C-B61F-63D72B33AABD}.Release|ARM.ActiveCfg = Release|Any CPU
+		{782AC2AC-7D71-4B7C-B61F-63D72B33AABD}.Release|ARM.Build.0 = Release|Any CPU
+		{782AC2AC-7D71-4B7C-B61F-63D72B33AABD}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{782AC2AC-7D71-4B7C-B61F-63D72B33AABD}.Release|iPhone.Build.0 = Release|Any CPU
+		{782AC2AC-7D71-4B7C-B61F-63D72B33AABD}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{782AC2AC-7D71-4B7C-B61F-63D72B33AABD}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{782AC2AC-7D71-4B7C-B61F-63D72B33AABD}.Release|x64.ActiveCfg = Release|Any CPU
+		{782AC2AC-7D71-4B7C-B61F-63D72B33AABD}.Release|x64.Build.0 = Release|Any CPU
+		{782AC2AC-7D71-4B7C-B61F-63D72B33AABD}.Release|x86.ActiveCfg = Release|Any CPU
+		{782AC2AC-7D71-4B7C-B61F-63D72B33AABD}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
